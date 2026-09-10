@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="@drawable/ic_back"
+        app:title="@string/menu_settings" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="24dp">
+
+            <!-- Görünüm -->
+            <TextView style="@style/SettingsHeader" android:text="@string/section_appearance" />
+
+            <LinearLayout android:id="@+id/rowTheme" style="@style/SettingsRow">
+                <LinearLayout style="@style/SettingsRowText">
+                    <TextView style="@style/SettingsTitle" android:text="@string/theme" />
+                    <TextView android:id="@+id/valueTheme" style="@style/SettingsValue" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/rowLanguage" style="@style/SettingsRow">
+                <LinearLayout style="@style/SettingsRowText">
+                    <TextView style="@style/SettingsTitle" android:text="@string/language" />
+                    <TextView android:id="@+id/valueLanguage" style="@style/SettingsValue" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/rowFont" style="@style/SettingsRow">
+                <LinearLayout style="@style/SettingsRowText">
+                    <TextView style="@style/SettingsTitle" android:text="@string/menu_font" />
+                    <TextView android:id="@+id/valueFont" style="@style/SettingsValue" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/rowHighlight" style="@style/SettingsRow">
+                <LinearLayout style="@style/SettingsRowText">
+                    <TextView style="@style/SettingsTitle" android:text="@string/highlight_color" />
+                    <TextView android:id="@+id/valueHighlight" style="@style/SettingsValue" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Okuma -->
+            <TextView style="@style/SettingsHeader" android:text="@string/section_reading" />
+
+            <LinearLayout style="@style/SettingsRow" android:clickable="false">
+                <LinearLayout style="@style/SettingsRowText">
+                    <TextView style="@style/SettingsTitle" android:text="@string/auto_scroll" />
+                    <TextView style="@style/SettingsValue" android:text="@string/auto_scroll_desc" />
+                </LinearLayout>
+
+                <com.google.android.material.materialswitch.MaterialSwitch
+                    android:id="@+id/switchAutoScroll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingsRow" android:clickable="false">
+                <LinearLayout style="@style/SettingsRowText">
+                    <TextView style="@style/SettingsTitle" android:text="@string/keep_screen_on" />
+                    <TextView style="@style/SettingsValue" android:text="@string/keep_screen_on_desc" />
+                </LinearLayout>
+
+                <com.google.android.material.materialswitch.MaterialSwitch
+                    android:id="@+id/switchKeepScreen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="20dp"
+                android:paddingTop="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/SettingsTitle"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/default_speed" />
+
+                    <TextView
+                        android:id="@+id/speedValue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@style/TextAppearance.Material3.LabelMedium" />
+                </LinearLayout>
+
+                <com.google.android.material.slider.Slider
+                    android:id="@+id/speedSlider"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stepSize="0.05"
+                    android:value="1.0"
+                    android:valueFrom="0.6"
+                    android:valueTo="2.0"
+                    app:tickVisible="false" />
+            </LinearLayout>
+
+            <!-- Ses -->
+            <TextView style="@style/SettingsHeader" android:text="@string/section_voice" />
+
+            <LinearLayout android:id="@+id/rowVoice" style="@style/SettingsRow">
+                <LinearLayout style="@style/SettingsRowText">
+                    <TextView style="@style/SettingsTitle" android:text="@string/voice_model" />
+                    <TextView android:id="@+id/valueVoice" style="@style/SettingsValue" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/rowSpeaker" style="@style/SettingsRow">
+                <LinearLayout style="@style/SettingsRowText">
+                    <TextView style="@style/SettingsTitle" android:text="@string/speaker" />
+                    <TextView android:id="@+id/valueSpeaker" style="@style/SettingsValue" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/rowAutoVoice" style="@style/SettingsRow">
+                <LinearLayout style="@style/SettingsRowText">
+                    <TextView style="@style/SettingsTitle" android:text="@string/auto_voice" />
+                    <TextView style="@style/SettingsValue" android:text="@string/auto_voice_desc" />
+                </LinearLayout>
+
+                <com.google.android.material.materialswitch.MaterialSwitch
+                    android:id="@+id/switchAutoVoice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/rowPronunciation" style="@style/SettingsRow">
+                <LinearLayout style="@style/SettingsRowText">
+                    <TextView style="@style/SettingsTitle" android:text="@string/menu_pronunciation" />
+                    <TextView android:id="@+id/valuePronunciation" style="@style/SettingsValue" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/rowSleep" style="@style/SettingsRow">
+                <LinearLayout style="@style/SettingsRowText">
+                    <TextView style="@style/SettingsTitle" android:text="@string/menu_sleep" />
+                    <TextView android:id="@+id/valueSleep" style="@style/SettingsValue" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Hakkında -->
+            <TextView style="@style/SettingsHeader" android:text="@string/section_other" />
+
+            <LinearLayout android:id="@+id/rowStats" style="@style/SettingsRow">
+                <LinearLayout style="@style/SettingsRowText">
+                    <TextView style="@style/SettingsTitle" android:text="@string/menu_stats" />
+                    <TextView android:id="@+id/valueStats" style="@style/SettingsValue" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout android:id="@+id/rowAbout" style="@style/SettingsRow">
+                <LinearLayout style="@style/SettingsRowText">
+                    <TextView style="@style/SettingsTitle" android:text="@string/menu_about" />
+                    <TextView style="@style/SettingsValue" android:text="@string/about_summary" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,27 @@
+# --- imza anahtarlari: ASLA depoya girmez ---
+keystore.properties
+*.jks
+*.keystore
+*.p12
+
+# --- yerel ayarlar ---
+local.properties
+
+# --- derleme ciktilari ---
+.gradle/
+build/
+captures/
+.cxx/
+.externalNativeBuild/
+.kotlin/
+
+# --- yayinlanan APK'lar Release'e yuklenir, depoda tutulmaz ---
+apk/*.apk
+
+# --- IDE ---
+.idea/
+*.iml
+
+# --- isletim sistemi ---
+.DS_Store
+Thumbs.db

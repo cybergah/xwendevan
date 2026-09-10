@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- koyu tema tonları -->
+    <color name="brand_container">#FF8C1D18</color>
+    <color name="brand_on_container">#FFFFDAD5</color>
+</resources>

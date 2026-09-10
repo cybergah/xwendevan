@@ -1,0 +1,75 @@
+name: Release
+
+# Etiket atinca calisir:  git tag v1.5.0 && git push origin v1.5.0
+# APK'lari derler ve GitHub Release'e yukler.
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:      # Actions sekmesinden elle de calistirilabilir
+
+permissions:
+  contents: write
+
+jobs:
+  android:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      # Imza anahtari depoda degil, GitHub secret olarak tutulur.
+      # Secret yoksa derleme yine calisir, hata ayiklama anahtariyla imzalanir.
+      - name: İmza anahtarını hazırla
+        id: signing
+        env:
+          KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
+          STORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: |
+          if [ -n "$KEYSTORE_BASE64" ]; then
+            echo "$KEYSTORE_BASE64" | base64 -d > xwendevan-release.jks
+            {
+              echo "storeFile=xwendevan-release.jks"
+              echo "storePassword=$STORE_PASSWORD"
+              echo "keyAlias=$KEY_ALIAS"
+              echo "keyPassword=$KEY_PASSWORD"
+            } > keystore.properties
+            echo "signed=true" >> "$GITHUB_OUTPUT"
+            echo "Yayın anahtarı hazır."
+          else
+            echo "signed=false" >> "$GITHUB_OUTPUT"
+            echo "KEYSTORE_BASE64 yok — hata ayıklama anahtarı kullanılacak."
+          fi
+
+      - name: APK derle
+        run: |
+          chmod +x gradlew
+          ./gradlew :app:assembleRelease --no-daemon
+
+      - name: Adlandır
+        run: |
+          V="${GITHUB_REF_NAME#v}"
+          mkdir -p out
+          cp app/build/outputs/apk/release/app-arm64-v8a-release.apk   "out/Xwendevan-$V-arm64-v8a.apk"
+          cp app/build/outputs/apk/release/app-armeabi-v7a-release.apk "out/Xwendevan-$V-armeabi-v7a.apk"
+          ls -la out/
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: android
+          path: out/*.apk
+
+      # Yalnızca gerçek imza anahtarıyla derlendiyse Release'e yüklenir;
+      # hata ayıklama anahtarıyla imzalanmış APK yayınlanmaz.
+      - uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/') && steps.signing.outputs.signed == 'true'
+        with:
+          files: out/*.apk
+          generate_release_notes: true

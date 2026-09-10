@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tts_engine_name">Xwendevan (Kurmancî · Turkish)</string>
+    <string name="menu_speak">اقرأ نصاً</string>
+    <string name="menu_voices">الأصوات</string>
+    <string name="menu_font">حجم النص</string>
+    <string name="menu_about">حول التطبيق</string>
+    <string name="menu_settings">الإعدادات</string>
+
+    <string name="play">تشغيل</string>
+    <string name="pause">إيقاف مؤقت</string>
+    <string name="next">الجملة التالية</string>
+    <string name="prev">الجملة السابقة</string>
+    <string name="next_par">الفقرة التالية</string>
+    <string name="prev_par">الفقرة السابقة</string>
+    <string name="stop">إيقاف</string>
+    <string name="speed">السرعة</string>
+    <string name="speed_label">%1$.2fx</string>
+
+    <string name="channel_playback">القراءة الصوتية</string>
+    <string name="channel_playback_desc">إشعار يظهر أثناء القراءة</string>
+    <string name="notif_idle">جاهز</string>
+
+    <string name="empty_title">مكتبتك فارغة</string>
+    <string name="empty_body">أضف ملف PDF أو DOCX أو EPUB أو TXT. تُعرض صفحات PDF كما هي، وتُميَّز الجملة المقروءة على الصفحة نفسها.</string>
+    <string name="open_document">اختر مستنداً</string>
+    <string name="add_document">إضافة مستند</string>
+    <string name="remove_book_q">هل تريد إزالة هذا المستند من المكتبة؟ لن يُحذف الملف نفسه.</string>
+    <string name="remove">إزالة</string>
+    <string name="pages_n">%1$d صفحة</string>
+    <string name="page_of">صفحة %1$d من %2$d</string>
+    <string name="splash_tagline">دع مستنداتك تُقرأ بصوت</string>
+    <string name="section_continue">متابعة القراءة</string>
+    <string name="section_favorites">المفضلة</string>
+    <string name="section_most_read">الأكثر قراءة</string>
+    <string name="section_all">كل المستندات</string>
+    <string name="fav_add">أضف إلى المفضلة</string>
+    <string name="fav_remove">أزل من المفضلة</string>
+    <string name="percent_read">قُرئ %1$d%%</string>
+    <string name="not_started">لم يبدأ بعد</string>
+    <string name="current_voice">الصوت: %1$s</string>
+    <string name="no_voice_short">لم يُختر أي صوت</string>
+
+    <string name="voices_title">نماذج الأصوات</string>
+    <string name="voices_builtin_note">الأصوات التركية والكرمانجية مضمّنة داخل التطبيق؛ لا تنزيل ولا اختيار مجلد.</string>
+    <string name="voice_ready">جاهز</string>
+    <string name="voice_embedded">مضمّن في التطبيق</string>
+    <string name="speakers_n">%1$d متحدثين</string>
+    <string name="preparing_voice">جارٍ تحضير نموذج الصوت…</string>
+    <string name="preparing_voice_pct">جارٍ تحضير نموذج الصوت… %1$d%%</string>
+    <string name="loading_voice">جارٍ تحميل نموذج الصوت…</string>
+    <string name="voice_error">تعذّر تحميل نموذج الصوت: %1$s</string>
+    <string name="no_voice">اختر نموذج صوت أولاً</string>
+    <string name="speaker">المتحدث</string>
+    <string name="single_speaker">نموذج بمتحدث واحد</string>
+    <string name="pick_voice">اختر صوتاً</string>
+    <string name="voice_model">نموذج الصوت</string>
+
+    <string name="speak_hint">اكتب هنا النص الذي تريد سماعه…</string>
+    <string name="speak_note">اجعل التطبيق يقرأ نصّك واحفظه بصيغة MP3.</string>
+    <string name="speak_chars">%1$d حرفاً · اضغط اقرأ للبدء</string>
+    <string name="speak_empty">اكتب نصاً أولاً</string>
+    <string name="speak_play">اقرأ</string>
+    <string name="save_mp3">حفظ MP3</string>
+    <string name="saving_mp3_pct">جارٍ تحضير ملف MP3… %1$d%%</string>
+    <string name="saved_mp3">%1$s\n\nالمدة: %2$s · الحجم: %3$s ميغابايت\n\nحُفظ في Downloads/Xwendevan.</string>
+    <string name="save_failed">تعذّر الحفظ: %1$s</string>
+    <string name="save_needs_permission">الحفظ يحتاج إذن التخزين</string>
+    <string name="open">فتح</string>
+    <string name="share">مشاركة</string>
+    <string name="no_player_app">لا يوجد تطبيق لتشغيل الملف الصوتي</string>
+
+    <string name="delete">حذف</string>
+    <string name="menu_sleep">مؤقّت النوم</string>
+    <string name="sleep_minutes">التوقّف بعد %1$d دقيقة</string>
+    <string name="sleep_end_paragraph">التوقّف عند نهاية الفقرة</string>
+    <string name="sleep_end_document">التوقّف عند نهاية المستند</string>
+    <string name="sleep_cancel">إيقاف المؤقّت</string>
+    <string name="sleep_off">مغلق</string>
+    <string name="sleep_set">سيتوقّف بعد %1$d دقيقة</string>
+    <string name="sleep_left">بقي %1$d د %2$d ث</string>
+    <string name="sleep_active">مؤقّت النوم · %1$s</string>
+    <string name="menu_bookmarks">العلامات</string>
+    <string name="bookmark_add">أضف علامة</string>
+    <string name="bookmark_added">أُضيفت العلامة</string>
+    <string name="bookmark_exists">هذه الجملة معلّمة سلفاً</string>
+    <string name="bookmarks_empty">لا علامات في هذا المستند</string>
+    <string name="bookmarks_cleared">حُذفت العلامات</string>
+    <string name="delete_all">حذف الكل</string>
+    <string name="menu_search">ابحث في المستند</string>
+    <string name="search_hint">الكلمة المطلوبة</string>
+    <string name="search_go">ابحث</string>
+    <string name="search_none">لم يُعثر على \"%1$s\"</string>
+    <string name="search_results">%1$d نتيجة</string>
+    <string name="page_short">ص %1$d</string>
+    <string name="menu_export_mp3">حوّل المستند إلى MP3</string>
+    <string name="export_single">ملف واحد</string>
+    <string name="export_parts">أجزاء بطول %1$d دقيقة</string>
+    <string name="export_progress">%1$d / %2$d جملة · الجزء %3$d</string>
+    <string name="export_done">%1$d ملفات · نحو %2$d دقيقة · %3$s ميغابايت\nحُفظت في Downloads/Xwendevan.</string>
+    <string name="export_cancelled">أُلغي الحفظ</string>
+    <string name="export_wait_parse">لا يزال المستند قيد المعالجة، انتظر قليلاً</string>
+    <string name="menu_pronunciation">قاموس النطق</string>
+    <string name="pron_note">تُقرأ الاختصارات والأسماء كما تكتبها هنا، ولا يتغيّر نص المستند.</string>
+    <string name="pron_empty">لا قواعد بعد.</string>
+    <string name="pron_add">أضف قاعدة</string>
+    <string name="pron_edit">عدّل القاعدة</string>
+    <string name="pron_from_hint">الشكل المكتوب</string>
+    <string name="pron_to_hint">شكل النطق</string>
+    <string name="pron_reads_as">يُقرأ: %1$s</string>
+    <string name="pron_count">%1$d قاعدة</string>
+    <string name="menu_stats">إحصاء الاستماع</string>
+    <string name="stats_today">اليوم</string>
+    <string name="stats_week">هذا الأسبوع</string>
+    <string name="stats_total">الإجمالي</string>
+    <string name="stats_last_week">آخر 7 أيام (دقائق)</string>
+    <string name="stats_top_books">الأكثر استماعاً</string>
+    <string name="stats_reset">تصفير الإحصاء</string>
+    <string name="stats_reset_q">هل تُحذف سجلات الاستماع؟</string>
+    <string name="stats_summary">%1$d دقيقة هذا الأسبوع</string>
+    <string name="auto_voice">اكتشاف لغة المستند</string>
+    <string name="auto_voice_desc">ينتقل تلقائياً إلى الصوت الكرمانجي في المستند الكرمانجي</string>
+    <string name="auto_voice_switch">تغيّر الصوت حسب لغة المستند: %1$s</string>
+    <string name="paste">لصق</string>
+    <string name="clipboard_empty">لا نص في الحافظة</string>
+    <string name="ocr_title">التعرّف على النص (OCR)</string>
+    <string name="ocr_offer">يبدو هذا الملف ممسوحاً ضوئياً بلا طبقة نص. هل تُقرأ %1$d صفحة من الصور؟ تجري العملية على الجهاز وقد تستغرق دقائق.</string>
+    <string name="ocr_run">تعرّف</string>
+    <string name="ocr_progress">%1$d / %2$d صفحة</string>
+    <string name="ocr_done">تم التعرّف على %1$d جملة</string>
+    <string name="ocr_none">لم يُعثر على نص قابل للقراءة</string>
+    <string name="ocr_failed">تعذّر التعرّف على النص: %1$s</string>
+    <string name="ocr_from_cache">يُستخدم النص المتعرَّف عليه سابقاً</string>
+    <string name="parsing">استخراج النص: %1$d/%2$d</string>
+    <string name="parsing_unknown">جارٍ استخراج النص…</string>
+    <string name="parse_error">تعذّرت قراءة المستند: %1$s</string>
+    <string name="legacy_doc">صيغة ‎.doc القديمة غير مدعومة. احفظ الملف بصيغة ‎.docx أو ‎.txt وحاول مجدداً.</string>
+    <string name="status_line">%1$d / %2$d جملة · %3$d%%</string>
+    <string name="remaining">يتبقى ~%1$s</string>
+    <string name="buffered">جاهز: +%1$d</string>
+    <string name="preparing">جارٍ تحضير الصوت…</string>
+    <string name="back_to_reading">العودة إلى موضع القراءة</string>
+    <string name="finished">انتهى المستند</string>
+    <string name="font_pdf_note">يُعرض ملف PDF كما هو؛ حجم النص يخص المستندات النصية فقط.</string>
+    <string name="triple_tap_hint">تلميح: انقر ثلاث مرات في أي موضع لمتابعة القراءة من هناك.</string>
+    <string name="dur_hm">%1$d س %2$d د</string>
+    <string name="dur_m">%1$d دقيقة</string>
+    <string name="dur_s">%1$d ثانية</string>
+
+    <string name="section_appearance">المظهر</string>
+    <string name="section_reading">القراءة</string>
+    <string name="section_voice">الصوت</string>
+    <string name="section_other">أخرى</string>
+    <string name="theme">السمة</string>
+    <string name="theme_system">النظام</string>
+    <string name="theme_light">فاتحة</string>
+    <string name="theme_dark">داكنة</string>
+    <string name="language">لغة التطبيق</string>
+    <string name="language_system">لغة النظام</string>
+    <string name="highlight_color">لون التمييز</string>
+    <string name="color_blue">أزرق</string>
+    <string name="color_yellow">أصفر</string>
+    <string name="color_green">أخضر</string>
+    <string name="color_pink">وردي</string>
+    <string name="auto_scroll">تتبّع موضع القراءة</string>
+    <string name="auto_scroll_desc">تنتقل الصفحة تلقائياً</string>
+    <string name="keep_screen_on">إبقاء الشاشة مضاءة</string>
+    <string name="keep_screen_on_desc">لا تنطفئ الشاشة أثناء القراءة</string>
+    <string name="default_speed">السرعة الافتراضية</string>
+    <string name="about_summary">الإصدار وشكر وتقدير</string>
+
+    <string name="version_x">الإصدار %1$s</string>
+    <string name="by_cybergah">عمل من Cybergah</string>
+    <string name="about_voices_title">الأصوات المضمّنة</string>
+    <string name="about_voices_note">النماذج داخل التطبيق؛ تُفكّ على الجهاز عند أول استخدام دون أي تنزيل.</string>
+    <string name="about_text">يقرأ مستندات PDF وDOCX وEPUB وTXT بصوت مسموع على الجهاز، دون اتصال بالإنترنت، باستخدام نماذج Piper ‏(VITS/ONNX). الأصوات التركية والكرمانجية مضمّنة داخل التطبيق.\n\nتُعرض صفحات PDF كما هي وتُميَّز الجملة المقروءة على الصفحة. يُستخرج النص على دفعات: تبدأ القراءة فور جهوز الجملة الأولى، ويُحوَّل الباقي إلى صوت أثناء الاستماع.\n\nانقر ثلاث مرات في أي موضع لمتابعة القراءة من هناك.</string>
+    <string name="about_use_title">فائدته</string>
+    <string name="about_use">• يقرأ المستندات بصوت مسموع للمكفوفين وضعاف البصر.\n• من لديه عسر قراءة يتابع النص بالسمع.\n• تنهي التقارير الطويلة والكتب أثناء الطريق.\n• الصوت الكرمانجي يتيح الاستماع باللغة الأم.
+• تُقرأ ملفات PDF الممسوحة ضوئياً على الجهاز عبر OCR (التركية والكرمانجية).
+• عند اختياره محرّكاً لنطق النظام يعمل الصوت الكرمانجي في الهاتف كله.\n• كل شيء دون إنترنت: لا حساب ولا اشتراك.</string>
+
+    <string name="about_speak_title">اقرأ نصاً واحفظه MP3</string>
+    <string name="about_speak">إلى جانب المستندات، يقرأ أي نص تكتبه بنفسك. ويمكن حفظ النص نفسه بصيغة MP3 في مجلد Downloads/Xwendevan ومشاركته والاستماع إليه دون اتصال.</string>
+
+    <string name="about_privacy_title">الخصوصية</string>
+    <string name="about_privacy">لا يتصل التطبيق بالإنترنت؛ نصوصك ومستنداتك والصوت الناتج تبقى على جهازك. لا إعلانات ولا تتبّع ولا حساب. الأذونات المطلوبة هي الإشعارات (للتحكم بالقراءة) وكتابة ملف MP3 في مجلد التنزيلات على أندرويد 9 وما قبله فقط.</string>
+
+    <string name="about_engine_title">المكوّنات المستخدمة</string>
+    <string name="about_engine">محرك الصوت: sherpa-onnx · ONNX Runtime · espeak-ng\nنماذج الصوت: Piper ‏(VITS)\nMP3: jump3r ‏(LAME)
+OCR: Tesseract\nنص PDF: PDFBox</string>
+
+    <string name="about_license_title">الرخصة والحقوق</string>
+    <string name="about_license">‏Xwendevan برمجية حرة؛ ولأنه يتضمّن espeak-ng فهو يُوزَّع وفق GPL-3.0 أو أحدث. يحق للجميع الحصول على الشيفرة ودراستها وتعديلها.\n\nرخص المكوّنات: sherpa-onnx ‏(Apache-2.0) · ONNX Runtime ‏(MIT) · espeak-ng ‏(GPL-3.0) · Piper ‏(MIT) · PDFBox ‏(Apache-2.0) · Material Components ‏(Apache-2.0) · jump3r/LAME ‏(LGPL-2.1) · Tesseract4Android ‏(Apache-2.0)\n\nنماذج الصوت:\n• الكرمانجية — Berfin &amp; Renas: ‏CC BY-NC 4.0 ‏(rojanu)\n• التركية — Murat: بيانات dfki، ‏CC BY-NC-SA 4.0\n• التركية — Yelda وFahrettin: نماذج من مجتمع Piper\n\nبسبب شرط NC (غير التجاري) لا يجوز بيع التطبيق ولا الصوت الناتج عنه؛ أما التعليم وإتاحة الوصول والاستخدام الشخصي فحرّة.</string>
+
+    <string name="about_cybergah_title">Cybergah</string>
+    <string name="about_cybergah">‏Cybergah بوصلة للشباب الباحث عن طريقه في العصر الرقمي: من الذكاء الاصطناعي إلى الأمن السيبراني، ومن البرمجة إلى تطوير الألعاب. ينشر بالتركية والكرمانجية ليبقى العلم متاحاً باللغة الأم — فاللغة هوية، والمعرفة قوة، والتقنية مستقبل. لهذا وُجد Xwendevan: لا لاستهلاك التقنية فحسب، بل لصناعتها.</string>
+    <string name="cybergah_slogan">مقرّ حريتكم في الفوضى الرقمية</string>
+    <string name="cybergah_note">‏Xwendevan عمل مفتوح من مجتمع Cybergah.</string>
+    <string name="cybergah_url">https://cybergah.com/tr/</string>
+    <string name="cybergah_url_label">cybergah.com/tr</string>
+</resources>

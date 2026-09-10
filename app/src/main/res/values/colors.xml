@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cybergah kimliği: gece mavisi zemin, kırmızı vurgu -->
+    <color name="ic_launcher_background">#FF0B1220</color>
+    <color name="brand">#FFDC2626</color>
+    <color name="cybergah_ink">#FF0B1220</color>
+    <color name="cybergah_red">#FFDC2626</color>
+
+    <color name="highlight">#552979FF</color>
+    <color name="highlight_text">#FF0B3FA8</color>
+    <color name="highlight_dark">#663D5AFE</color>
+    <color name="highlight_text_dark">#FFBBD1FF</color>
+    <color name="read_dim">#8A000000</color>
+    <color name="hl_blue">#552979FF</color>
+    <color name="hl_yellow">#66FFD54F</color>
+    <color name="hl_green">#5566BB6A</color>
+    <color name="hl_pink">#55F06292</color>
+</resources>

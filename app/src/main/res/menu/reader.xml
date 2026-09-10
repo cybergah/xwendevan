@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_voices" android:title="@string/menu_voices"
+        android:icon="@drawable/ic_voice" app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_search" android:title="@string/menu_search"
+        android:icon="@drawable/ic_search" app:showAsAction="ifRoom" />
+    <item android:id="@+id/action_bookmark_add" android:title="@string/bookmark_add"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_bookmarks" android:title="@string/menu_bookmarks"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_sleep" android:title="@string/menu_sleep"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_export" android:title="@string/menu_export_mp3"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_font" android:title="@string/menu_font"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_settings" android:title="@string/menu_settings"
+        app:showAsAction="never" />
+</menu>
