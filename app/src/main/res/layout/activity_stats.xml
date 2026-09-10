@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="@drawable/ic_back"
+        app:title="@string/menu_stats" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout style="@style/StatBox">
+
+                    <TextView
+                        android:id="@+id/valueToday"
+                        style="@style/StatValue" />
+
+                    <TextView
+                        style="@style/StatLabel"
+                        android:text="@string/stats_today" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/StatBox">
+
+                    <TextView
+                        android:id="@+id/valueWeek"
+                        style="@style/StatValue" />
+
+                    <TextView
+                        style="@style/StatLabel"
+                        android:text="@string/stats_week" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/StatBox">
+
+                    <TextView
+                        android:id="@+id/valueTotal"
+                        style="@style/StatValue" />
+
+                    <TextView
+                        style="@style/StatLabel"
+                        android:text="@string/stats_total" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                style="@style/AboutSection"
+                android:text="@string/stats_last_week" />
+
+            <LinearLayout
+                android:id="@+id/chart"
+                android:layout_width="match_parent"
+                android:layout_height="160dp"
+                android:layout_marginTop="10dp"
+                android:baselineAligned="false"
+                android:gravity="bottom"
+                android:orientation="horizontal" />
+
+            <TextView
+                android:id="@+id/topTitle"
+                style="@style/AboutSection"
+                android:text="@string/stats_top_books" />
+
+            <LinearLayout
+                android:id="@+id/topBooks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="vertical" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/reset"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_marginTop="20dp"
+                android:text="@string/stats_reset" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

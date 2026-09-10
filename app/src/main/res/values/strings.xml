@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Xwendevan</string>
+    <string name="tts_engine_name">Xwendevan (Kurmancî · Türkçe)</string>
+
+    <!-- menü -->
+    <string name="menu_speak">Metin okut</string>
+    <string name="menu_voices">Sesler</string>
+    <string name="menu_font">Yazı boyutu</string>
+    <string name="menu_about">Hakkında</string>
+    <string name="menu_settings">Ayarlar</string>
+
+    <!-- oynatma -->
+    <string name="play">Oynat</string>
+    <string name="pause">Duraklat</string>
+    <string name="next">Sonraki cümle</string>
+    <string name="prev">Önceki cümle</string>
+    <string name="next_par">Sonraki paragraf</string>
+    <string name="prev_par">Önceki paragraf</string>
+    <string name="stop">Durdur</string>
+    <string name="speed">Hız</string>
+    <string name="speed_label">%1$.2fx</string>
+
+    <!-- bildirim -->
+    <string name="channel_playback">Sesli okuma</string>
+    <string name="channel_playback_desc">Okuma sürerken gösterilen bildirim</string>
+    <string name="notif_idle">Hazır</string>
+
+    <!-- kitaplık -->
+    <string name="empty_title">Kitaplığınız boş</string>
+    <string name="empty_body">PDF, DOCX, EPUB veya TXT ekleyin. PDF sayfaları olduğu gibi görünür, okunan cümle sayfanın üzerinde işaretlenir.</string>
+    <string name="open_document">Belge seç</string>
+    <string name="add_document">Belge ekle</string>
+    <string name="remove_book_q">Bu belge kitaplıktan kaldırılsın mı? Dosyanın kendisi silinmez.</string>
+    <string name="remove">Kaldır</string>
+    <string name="pages_n">%1$d sayfa</string>
+    <string name="page_of">Sayfa %1$d / %2$d</string>
+    <string name="splash_tagline">Belgeleriniz sesli okunsun</string>
+    <string name="section_continue">Devam edenler</string>
+    <string name="section_favorites">Favoriler</string>
+    <string name="section_most_read">En çok okunanlar</string>
+    <string name="section_all">Tüm belgeler</string>
+    <string name="fav_add">Favorilere ekle</string>
+    <string name="fav_remove">Favorilerden çıkar</string>
+    <string name="percent_read">%%%1$d okundu</string>
+    <string name="not_started">Henüz başlanmadı</string>
+    <string name="current_voice">Ses: %1$s</string>
+    <string name="no_voice_short">Ses modeli seçilmedi</string>
+
+    <!-- sesler -->
+    <string name="voices_title">Ses modelleri</string>
+    <string name="voices_builtin_note">Türkçe ve Kurmancî sesler uygulamanın içinde gelir; indirme veya klasör seçme yoktur.</string>
+    <string name="voice_ready">hazır</string>
+    <string name="voice_embedded">uygulamada gömülü</string>
+    <string name="speakers_n">%1$d konuşmacı</string>
+    <string name="preparing_voice">Ses modeli hazırlanıyor…</string>
+    <string name="preparing_voice_pct">Ses modeli hazırlanıyor… %%%1$d</string>
+    <string name="loading_voice">Ses modeli yükleniyor…</string>
+    <string name="voice_error">Ses modeli yüklenemedi: %1$s</string>
+    <string name="no_voice">Önce bir ses modeli seçin</string>
+    <string name="speaker">Konuşmacı</string>
+    <string name="single_speaker">Tek konuşmacılı model</string>
+    <string name="pick_voice">Ses seç</string>
+    <string name="voice_model">Ses modeli</string>
+
+    <!-- uyku zamanlayıcısı -->
+    <string name="delete">Sil</string>
+    <string name="menu_sleep">Uyku zamanlayıcısı</string>
+    <string name="sleep_minutes">%1$d dakika sonra dur</string>
+    <string name="sleep_end_paragraph">Paragraf bitince dur</string>
+    <string name="sleep_end_document">Belge bitince dur</string>
+    <string name="sleep_cancel">Zamanlayıcıyı kapat</string>
+    <string name="sleep_off">Kapalı</string>
+    <string name="sleep_set">%1$d dakika sonra duracak</string>
+    <string name="sleep_left">%1$d dk %2$d sn kaldı</string>
+    <string name="sleep_active">Uyku zamanlayıcısı · %1$s</string>
+
+    <!-- yer imi ve arama -->
+    <string name="menu_bookmarks">Yer imleri</string>
+    <string name="bookmark_add">Yer imi ekle</string>
+    <string name="bookmark_added">Yer imi eklendi</string>
+    <string name="bookmark_exists">Bu cümle zaten yer iminde</string>
+    <string name="bookmarks_empty">Bu belgede yer imi yok</string>
+    <string name="bookmarks_cleared">Yer imleri silindi</string>
+    <string name="delete_all">Tümünü sil</string>
+    <string name="menu_search">Belgede ara</string>
+    <string name="search_hint">Aranacak kelime</string>
+    <string name="search_go">Ara</string>
+    <string name="search_none">\"%1$s\" bulunamadı</string>
+    <string name="search_results">%1$d sonuç</string>
+    <string name="page_short">s. %1$d</string>
+
+    <!-- belgeyi MP3 yapma -->
+    <string name="menu_export_mp3">Belgeyi MP3 yap</string>
+    <string name="export_single">Tek dosya</string>
+    <string name="export_parts">%1$d dakikalık parçalar</string>
+    <string name="export_progress">%1$d / %2$d cümle · %3$d. parça</string>
+    <string name="export_done">%1$d dosya · yaklaşık %2$d dakika · %3$s MB\nİndirilenler/Xwendevan klasörüne kaydedildi.</string>
+    <string name="export_cancelled">Kaydetme iptal edildi</string>
+    <string name="export_wait_parse">Belge henüz çözülüyor, bitmesini bekleyin</string>
+
+    <!-- telaffuz sözlüğü -->
+    <string name="menu_pronunciation">Telaffuz sözlüğü</string>
+    <string name="pron_note">Kısaltmalar ve özel adlar seslendirilirken burada yazdığınız gibi okunur. Belgenin metni değişmez.</string>
+    <string name="pron_empty">Henüz kural yok.</string>
+    <string name="pron_add">Kural ekle</string>
+    <string name="pron_edit">Kuralı düzenle</string>
+    <string name="pron_from_hint">Yazılışı (ör. TBMM)</string>
+    <string name="pron_to_hint">Okunuşu (ör. Te Be Em Me)</string>
+    <string name="pron_reads_as">okunuşu: %1$s</string>
+    <string name="pron_count">%1$d kural</string>
+
+    <!-- istatistik -->
+    <string name="menu_stats">Dinleme istatistiği</string>
+    <string name="stats_today">Bugün</string>
+    <string name="stats_week">Bu hafta</string>
+    <string name="stats_total">Toplam</string>
+    <string name="stats_last_week">Son 7 gün (dakika)</string>
+    <string name="stats_top_books">En çok dinlenenler</string>
+    <string name="stats_reset">İstatistiği sıfırla</string>
+    <string name="stats_reset_q">Dinleme kaydı silinsin mi?</string>
+    <string name="stats_summary">Bu hafta %1$d dakika</string>
+
+    <!-- dil algılama -->
+    <string name="auto_voice">Belgenin dilini algıla</string>
+    <string name="auto_voice_desc">Kurmancî belgede Kurmancî sese kendiliğinden geçer</string>
+    <string name="auto_voice_switch">Belgenin diline göre ses değişti: %1$s</string>
+
+    <!-- metin okut -->
+    <string name="paste">Yapıştır</string>
+    <string name="clipboard_empty">Panoda metin yok</string>
+    <string name="speak_hint">Okutmak istediğiniz metni buraya yazın…</string>
+    <string name="speak_note">Yazdığınız metni sesli okutabilir, MP3 olarak kaydedebilirsiniz.</string>
+    <string name="speak_chars">%1$d karakter · okumak için Oku\'ya dokunun</string>
+    <string name="speak_empty">Önce bir metin yazın</string>
+    <string name="speak_play">Oku</string>
+    <string name="save_mp3">MP3 kaydet</string>
+    <string name="saving_mp3_pct">MP3 hazırlanıyor… %%%1$d</string>
+    <string name="saved_mp3">%1$s\n\nSüre: %2$s · Boyut: %3$s MB\n\nİndirilenler/Xwendevan klasörüne kaydedildi.</string>
+    <string name="save_failed">Kaydedilemedi: %1$s</string>
+    <string name="save_needs_permission">Kaydetmek için depolama izni gerekiyor</string>
+    <string name="open">Aç</string>
+    <string name="share">Paylaş</string>
+    <string name="no_player_app">Ses dosyasını açacak bir uygulama bulunamadı</string>
+
+    <!-- OCR -->
+    <string name="ocr_title">Metin tanıma (OCR)</string>
+    <string name="ocr_offer">Bu PDF taranmış görünüyor: sayfalarda metin katmanı yok. %1$d sayfa görüntüden okunsun mu? İşlem cihazda yapılır, birkaç dakika sürebilir.</string>
+    <string name="ocr_run">Tanı</string>
+    <string name="ocr_progress">%1$d / %2$d sayfa tanındı</string>
+    <string name="ocr_done">%1$d cümle tanındı</string>
+    <string name="ocr_none">Sayfalarda okunabilir metin bulunamadı</string>
+    <string name="ocr_failed">Metin tanınamadı: %1$s</string>
+    <string name="ocr_from_cache">Daha önce tanınan metin kullanıldı</string>
+
+    <!-- okuma -->
+    <string name="parsing">Metin çözülüyor: %1$d/%2$d</string>
+    <string name="parsing_unknown">Metin çözülüyor…</string>
+    <string name="parse_error">Belge okunamadı: %1$s</string>
+    <string name="legacy_doc">Eski .doc biçimi desteklenmiyor. Dosyayı .docx veya .txt olarak kaydedip tekrar deneyin.</string>
+    <string name="status_line">%1$d / %2$d cümle · %%%3$d</string>
+    <string name="remaining">~%1$s kaldı</string>
+    <string name="buffered">hazır: +%1$d</string>
+    <string name="preparing">Ses hazırlanıyor…</string>
+    <string name="back_to_reading">Okunan yere dön</string>
+    <string name="finished">Belge bitti</string>
+    <string name="font_pdf_note">PDF olduğu gibi gösterilir; yazı boyutu yalnızca metin belgelerinde değişir.</string>
+    <string name="triple_tap_hint">İpucu: belgede bir yere üç kez dokununca okuma oradan devam eder.</string>
+    <string name="dur_hm">%1$d sa %2$d dk</string>
+    <string name="dur_m">%1$d dk</string>
+    <string name="dur_s">%1$d sn</string>
+
+    <!-- ayarlar -->
+    <string name="section_appearance">Görünüm</string>
+    <string name="section_reading">Okuma</string>
+    <string name="section_voice">Ses</string>
+    <string name="section_other">Diğer</string>
+    <string name="theme">Tema</string>
+    <string name="theme_system">Sistem</string>
+    <string name="theme_light">Açık</string>
+    <string name="theme_dark">Koyu</string>
+    <string name="language">Uygulama dili</string>
+    <string name="language_system">Sistem dili</string>
+    <string name="highlight_color">Vurgu rengi</string>
+    <string name="color_blue">Mavi</string>
+    <string name="color_yellow">Sarı</string>
+    <string name="color_green">Yeşil</string>
+    <string name="color_pink">Pembe</string>
+    <string name="auto_scroll">Okunan yeri takip et</string>
+    <string name="auto_scroll_desc">Sayfa kendiliğinden kayar</string>
+    <string name="keep_screen_on">Ekran açık kalsın</string>
+    <string name="keep_screen_on_desc">Okuma sürerken ekran sönmez</string>
+    <string name="default_speed">Varsayılan hız</string>
+    <string name="about_summary">Sürüm ve emeği geçenler</string>
+
+    <!-- hakkında -->
+    <string name="version_x">Sürüm %1$s</string>
+    <string name="by_cybergah">Bir Cybergah çalışması</string>
+    <string name="about_voices_title">Gömülü sesler</string>
+    <string name="about_voices_note">Modeller uygulamanın içindedir; ilk kullanımda cihaza açılır, indirme yapılmaz.</string>
+    <string name="about_text">PDF, DOCX, EPUB ve TXT belgelerini cihazda, çevrimdışı olarak Piper (VITS/ONNX) ses modelleriyle seslendirir. Türkçe ve Kurmancî sesler uygulamanın içinde gelir.\n\nPDF sayfaları olduğu gibi gösterilir; okunan cümle sayfanın üzerinde işaretlenir. Metin parça parça çözülür: ilk cümle hazır olur olmaz okuma başlar, kalanı okuma sürerken sese çevrilir.\n\nBir yere üç kez dokunarak okumayı oradan sürdürebilirsiniz.</string>
+    <string name="about_use_title">Ne işe yarar</string>
+    <string name="about_use">• Görme engelli ve az gören kullanıcılar için belgeleri sesli okur.\n• Disleksi ya da okuma zorluğu olanlar metni dinleyerek takip eder.\n• Uzun raporları, ödevleri, kitapları yolda dinleyerek bitirirsiniz.\n• Kurmancî sesle anadilde dinleme imkânı verir.\n• Taranmış PDF\'leri cihazda OCR ile tanır (Türkçe + Kurmancî).\n• Sistemin konuşma motoru olarak seçilirse Kurmancî ses tüm telefonda çalışır.\n• Her şey çevrimdışıdır: internet, hesap ve abonelik gerekmez.</string>
+
+    <string name="about_speak_title">Metin okut ve MP3</string>
+    <string name="about_speak">Belge açmadan, doğrudan yazdığınız metni de seslendirir. Aynı metni MP3 olarak İndirilenler/Xwendevan klasörüne kaydedip paylaşabilir; arabada, derste ya da çevrimdışı dinleyebilirsiniz.</string>
+
+    <string name="about_privacy_title">Gizlilik</string>
+    <string name="about_privacy">Uygulama internete çıkmaz; metniniz, belgeleriniz ve ürettiğiniz ses cihazdan dışarı gitmez. Reklam, izleme ve hesap yoktur. İstenen izinler yalnızca bildirim (okuma denetimi) ve Android 9 ve öncesinde MP3\'ü İndirilenler\'e yazmak içindir.</string>
+
+    <string name="about_engine_title">Kullanılan bileşenler</string>
+    <string name="about_engine">Ses motoru: sherpa-onnx · ONNX Runtime · espeak-ng\nSes modelleri: Piper (VITS)\nMP3: jump3r (LAME)
+OCR: Tesseract\nPDF metni: PDFBox</string>
+
+    <string name="about_license_title">Lisans ve haklar</string>
+    <string name="about_license">Xwendevan özgür yazılımdır; espeak-ng bileşeni gereği GPL-3.0 veya sonrası koşullarıyla dağıtılır. Kaynağı isteyen herkes alabilir, inceleyebilir, değiştirebilir.\n\nBileşen lisansları: sherpa-onnx (Apache-2.0) · ONNX Runtime (MIT) · espeak-ng (GPL-3.0) · Piper (MIT) · PDFBox (Apache-2.0) · Material Components (Apache-2.0) · jump3r/LAME (LGPL-2.1) · Tesseract4Android (Apache-2.0) · Leptonica (BSD-2)\n\nSes modelleri:\n• Kurmancî — Berfin &amp; Renas: CC BY-NC 4.0 (rojanu)\n• Türkçe — Murat: dfki veri kümesi, CC BY-NC-SA 4.0\n• Türkçe — Yelda, Fahrettin: Piper topluluk modelleri\n\nNC (ticari olmayan) koşulu nedeniyle uygulama ve ürettiği sesler satılamaz; eğitim, erişilebilirlik ve kişisel kullanım serbesttir.</string>
+
+    <string name="about_cybergah_title">Cybergah</string>
+    <string name="about_cybergah">Cybergah, dijital çağda yolunu arayan gençler için bir pusuladır: yapay zekâdan siber güvenliğe, yazılımdan oyun geliştirmeye teknolojinin nabzını tutar. Türkçe ve Kurmancî yayın yaparak bilgiyi anadilde erişilebilir kılar — çünkü dil kimliktir, bilgi güçtür, teknoloji gelecektir. Xwendevan bu yüzden var: teknolojiyi yalnızca tüketmek için değil, üretmek için.</string>
+    <string name="cybergah_slogan">Dijital karmaşada özgürlük karargahınız</string>
+    <string name="cybergah_note">Xwendevan, Cybergah topluluğunun açık çalışmasıdır.</string>
+    <string name="cybergah_url">https://cybergah.com/tr/</string>
+    <string name="cybergah_url_label">cybergah.com/tr</string>
+</resources>

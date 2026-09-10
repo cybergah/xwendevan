@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cybergah kırmızısının Material 3 tonları (açık tema) -->
+    <color name="brand_container">#FFFFDAD5</color>
+    <color name="brand_on_container">#FF410004</color>
+</resources>

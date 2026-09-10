@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tts_engine_name">Xwendevan (Kurmancî · Turkish)</string>
+    <string name="menu_speak">Nivîsê bixwîne</string>
+    <string name="menu_voices">Deng</string>
+    <string name="menu_font">Mezinahiya nivîsê</string>
+    <string name="menu_about">Der barê</string>
+    <string name="menu_settings">Mîheng</string>
+
+    <string name="play">Bilîze</string>
+    <string name="pause">Rawestîne</string>
+    <string name="next">Hevoka pêş</string>
+    <string name="prev">Hevoka paş</string>
+    <string name="next_par">Paragrafa pêş</string>
+    <string name="prev_par">Paragrafa paş</string>
+    <string name="stop">Bide sekinandin</string>
+    <string name="speed">Lez</string>
+    <string name="speed_label">%1$.2fx</string>
+
+    <string name="channel_playback">Xwendina bi deng</string>
+    <string name="channel_playback_desc">Agahdariya dema xwendinê</string>
+    <string name="notif_idle">Amade</string>
+
+    <string name="empty_title">Pirtûkxaneya te vala ye</string>
+    <string name="empty_body">Pelekî PDF, DOCX, EPUB an TXT zêde bike. Rûpelên PDF wek xwe têne nîşandan û hevoka ku tê xwendin li ser rûpelê tê nîşankirin.</string>
+    <string name="open_document">Belge hilbijêre</string>
+    <string name="add_document">Belge zêde bike</string>
+    <string name="remove_book_q">Ev belge ji pirtûkxaneyê were rakirin? Pel bi xwe nayê jêbirin.</string>
+    <string name="remove">Rake</string>
+    <string name="pages_n">%1$d rûpel</string>
+    <string name="page_of">Rûpel %1$d / %2$d</string>
+    <string name="splash_tagline">Bila belgeyên te bi deng bên xwendin</string>
+    <string name="section_continue">Berdewam dike</string>
+    <string name="section_favorites">Bijare</string>
+    <string name="section_most_read">Herî zêde hatine xwendin</string>
+    <string name="section_all">Hemû belge</string>
+    <string name="fav_add">Bike bijare</string>
+    <string name="fav_remove">Ji bijareyan derxe</string>
+    <string name="percent_read">%%%1$d hat xwendin</string>
+    <string name="not_started">Hê nehatiye destpêkirin</string>
+    <string name="current_voice">Deng: %1$s</string>
+    <string name="no_voice_short">Tu deng nehatiye hilbijartin</string>
+
+    <string name="voices_title">Modelên deng</string>
+    <string name="voices_builtin_note">Dengên kurmancî û tirkî di hundirê sepanê de tên; ne daxistin ne jî hilbijartina peldankê heye.</string>
+    <string name="voice_ready">amade</string>
+    <string name="voice_embedded">di sepanê de</string>
+    <string name="speakers_n">%1$d axêver</string>
+    <string name="preparing_voice">Modela deng tê amadekirin…</string>
+    <string name="preparing_voice_pct">Modela deng tê amadekirin… %%%1$d</string>
+    <string name="loading_voice">Modela deng tê barkirin…</string>
+    <string name="voice_error">Modela deng nehat barkirin: %1$s</string>
+    <string name="no_voice">Pêşî modelekî deng hilbijêre</string>
+    <string name="speaker">Axêver</string>
+    <string name="single_speaker">Modela bi yek axêverî</string>
+    <string name="pick_voice">Deng hilbijêre</string>
+    <string name="voice_model">Modela deng</string>
+
+    <string name="speak_hint">Nivîsa ku tu dixwazî bê xwendin li vir binivîse…</string>
+    <string name="speak_note">Nivîsa xwe bi deng bide xwendin û wek MP3 tomar bike.</string>
+    <string name="speak_chars">%1$d tîp · ji bo destpêkê li Bixwîne bide</string>
+    <string name="speak_empty">Pêşî nivîsekê binivîse</string>
+    <string name="speak_play">Bixwîne</string>
+    <string name="save_mp3">MP3 tomar bike</string>
+    <string name="saving_mp3_pct">MP3 tê amadekirin… %%%1$d</string>
+    <string name="saved_mp3">%1$s\n\nDem: %2$s · Mezinahî: %3$s MB\n\nLi peldanka Downloads/Xwendevan hat tomarkirin.</string>
+    <string name="save_failed">Nehat tomarkirin: %1$s</string>
+    <string name="save_needs_permission">Ji bo tomarkirinê destûra bîrê pêwîst e</string>
+    <string name="open">Veke</string>
+    <string name="share">Parve bike</string>
+    <string name="no_player_app">Sepanek ji bo vekirina pelê dengî nehat dîtin</string>
+
+    <string name="delete">Jê bibe</string>
+    <string name="menu_sleep">Demjimêra xewê</string>
+    <string name="sleep_minutes">Piştî %1$d xulekan raweste</string>
+    <string name="sleep_end_paragraph">Di dawiya paragrafê de raweste</string>
+    <string name="sleep_end_document">Di dawiya belgeyê de raweste</string>
+    <string name="sleep_cancel">Demjimêrê bigire</string>
+    <string name="sleep_off">Girtî</string>
+    <string name="sleep_set">Piştî %1$d xulekan disekine</string>
+    <string name="sleep_left">%1$d xl %2$d çk maye</string>
+    <string name="sleep_active">Demjimêra xewê · %1$s</string>
+    <string name="menu_bookmarks">Nîşankirî</string>
+    <string name="bookmark_add">Nîşan bike</string>
+    <string name="bookmark_added">Hat nîşankirin</string>
+    <string name="bookmark_exists">Ev hevok jixwe nîşankirî ye</string>
+    <string name="bookmarks_empty">Di vê belgeyê de nîşan tune</string>
+    <string name="bookmarks_cleared">Nîşan hatin jêbirin</string>
+    <string name="delete_all">Hemûyan jê bibe</string>
+    <string name="menu_search">Di belgeyê de bigere</string>
+    <string name="search_hint">Peyva ku tê gerîn</string>
+    <string name="search_go">Bigere</string>
+    <string name="search_none">\"%1$s\" nehat dîtin</string>
+    <string name="search_results">%1$d encam</string>
+    <string name="page_short">r. %1$d</string>
+    <string name="menu_export_mp3">Belgeyê bike MP3</string>
+    <string name="export_single">Yek pel</string>
+    <string name="export_parts">Perçeyên %1$d xulekî</string>
+    <string name="export_progress">%1$d / %2$d hevok · perçeya %3$d</string>
+    <string name="export_done">%1$d pel · nêzîkî %2$d xulek · %3$s MB\nLi Downloads/Xwendevan hat tomarkirin.</string>
+    <string name="export_cancelled">Tomarkirin hat betalkirin</string>
+    <string name="export_wait_parse">Belge hê tê çareserkirin, bisekine</string>
+    <string name="menu_pronunciation">Ferhenga bilêvkirinê</string>
+    <string name="pron_note">Kurtenav û navên taybet wek ku tu li vir dinivîsî têne xwendin. Nivîsa belgeyê naguhere.</string>
+    <string name="pron_empty">Hê tu rêzik tune.</string>
+    <string name="pron_add">Rêzikê zêde bike</string>
+    <string name="pron_edit">Rêzikê biguherîne</string>
+    <string name="pron_from_hint">Nivîsandin (mînak TBMM)</string>
+    <string name="pron_to_hint">Bilêvkirin</string>
+    <string name="pron_reads_as">tê xwendin: %1$s</string>
+    <string name="pron_count">%1$d rêzik</string>
+    <string name="menu_stats">Amara guhdarîkirinê</string>
+    <string name="stats_today">Îro</string>
+    <string name="stats_week">Vê hefteyê</string>
+    <string name="stats_total">Bi tevahî</string>
+    <string name="stats_last_week">7 rojên dawî (xulek)</string>
+    <string name="stats_top_books">Herî zêde hatine guhdarîkirin</string>
+    <string name="stats_reset">Amarê paqij bike</string>
+    <string name="stats_reset_q">Tomara guhdarîkirinê were jêbirin?</string>
+    <string name="stats_summary">Vê hefteyê %1$d xulek</string>
+    <string name="auto_voice">Zimanê belgeyê nas bike</string>
+    <string name="auto_voice_desc">Di belgeya kurmancî de bixwe derbasî dengê kurmancî dibe</string>
+    <string name="auto_voice_switch">Deng li gorî zimanê belgeyê guherî: %1$s</string>
+    <string name="paste">Pêve bike</string>
+    <string name="clipboard_empty">Di panoyê de nivîs tune</string>
+    <string name="ocr_title">Naskirina nivîsê (OCR)</string>
+    <string name="ocr_offer">Ev PDF wek şopandî xuya dike: di rûpelan de tebeqeya nivîsê tune. %1$d rûpel ji wêneyan bên xwendin? Li ser cîhazê pêk tê, dikare çend xulekan bidome.</string>
+    <string name="ocr_run">Nas bike</string>
+    <string name="ocr_progress">%1$d / %2$d rûpel hatin naskirin</string>
+    <string name="ocr_done">%1$d hevok hatin naskirin</string>
+    <string name="ocr_none">Di rûpelan de nivîsa xwendinî nehat dîtin</string>
+    <string name="ocr_failed">Nivîs nehat naskirin: %1$s</string>
+    <string name="ocr_from_cache">Nivîsa berê hatî naskirin tê bikaranîn</string>
+    <string name="parsing">Nivîs tê derxistin: %1$d/%2$d</string>
+    <string name="parsing_unknown">Nivîs tê derxistin…</string>
+    <string name="parse_error">Belge nehat xwendin: %1$s</string>
+    <string name="legacy_doc">Formata kevn .doc nayê piştgirî kirin. Pelê wek .docx an .txt tomar bike û dîsa biceribîne.</string>
+    <string name="status_line">%1$d / %2$d hevok · %3$d%%</string>
+    <string name="remaining">~%1$s maye</string>
+    <string name="buffered">amade: +%1$d</string>
+    <string name="preparing">Deng tê amadekirin…</string>
+    <string name="back_to_reading">Vegere cihê xwendinê</string>
+    <string name="finished">Belge qediya</string>
+    <string name="font_pdf_note">PDF wek xwe tê nîşandan; mezinahiya nivîsê tenê ji bo belgeyên nivîsê ye.</string>
+    <string name="triple_tap_hint">Şîret: sê caran li cihekî belgeyê bide, xwendin ji wir dewam dike.</string>
+    <string name="dur_hm">%1$d st %2$d xl</string>
+    <string name="dur_m">%1$d xulek</string>
+    <string name="dur_s">%1$d çirke</string>
+
+    <string name="section_appearance">Xuyang</string>
+    <string name="section_reading">Xwendin</string>
+    <string name="section_voice">Deng</string>
+    <string name="section_other">Yên din</string>
+    <string name="theme">Rûkar</string>
+    <string name="theme_system">Pergal</string>
+    <string name="theme_light">Ronî</string>
+    <string name="theme_dark">Tarî</string>
+    <string name="language">Zimanê sepanê</string>
+    <string name="language_system">Zimanê pergalê</string>
+    <string name="highlight_color">Rengê nîşankirinê</string>
+    <string name="color_blue">Şîn</string>
+    <string name="color_yellow">Zer</string>
+    <string name="color_green">Kesk</string>
+    <string name="color_pink">Pembeyî</string>
+    <string name="auto_scroll">Cihê xwendinê bişopîne</string>
+    <string name="auto_scroll_desc">Rûpel bixwe dişemite</string>
+    <string name="keep_screen_on">Ekran vekirî bimîne</string>
+    <string name="keep_screen_on_desc">Dema xwendinê ekran venamire</string>
+    <string name="default_speed">Leza bingehîn</string>
+    <string name="about_summary">Guherto û spasî</string>
+
+    <string name="version_x">Guherto %1$s</string>
+    <string name="by_cybergah">Xebateke Cybergah</string>
+    <string name="about_voices_title">Dengên hundirîn</string>
+    <string name="about_voices_note">Model di nav sepanê de ne; cara ewil li ser cîhazê têne vekirin, tu daxistin nîne.</string>
+    <string name="about_text">Belgeyên PDF, DOCX, EPUB û TXT li ser cîhazê, bêyî înternetê, bi modelên dengî yên Piper (VITS/ONNX) dixwîne. Dengên kurmancî û tirkî di hundirê sepanê de tên.\n\nRûpelên PDF wek xwe têne nîşandan; hevoka ku tê xwendin li ser rûpelê tê nîşankirin. Nivîs perçe perçe tê derxistin: gava hevoka yekem amade dibe xwendin dest pê dike, yên mayî di dema guhdarîkirinê de dibin deng.\n\nSê caran li cihekî bide, xwendin ji wir dewam dike.</string>
+    <string name="about_use_title">Kêrî çi tê</string>
+    <string name="about_use">• Ji bo kesên nabînin an kêm dibînin belgeyan bi deng dixwîne.\n• Kesên bi dîsleksî an zehmetiya xwendinê nivîsê bi guh dişopînin.\n• Rapor, peywir û pirtûkên dirêj di rê de bi guhdarî diqedin.\n• Bi dengê kurmancî guhdarî bi zimanê dayikê pêkan dibe.
+• PDFên şopandî li ser cîhazê bi OCR têne naskirin (tirkî + kurmancî).
+• Wek motora axaftinê ya pergalê hilbijartî, dengê kurmancî li tevahiya têlefonê dixebite.\n• Her tişt offline e: ne înternet, ne hesab, ne abonetî.</string>
+
+    <string name="about_speak_title">Nivîsê bixwîne û MP3</string>
+    <string name="about_speak">Ji bilî belgeyan, nivîsa ku tu bi xwe dinivîsî jî dixwîne. Heman nivîs wek MP3 li peldanka Downloads/Xwendevan tê tomarkirin û tê parvekirin — di erebê, di dersê an bêyî înternetê guhdarî bike.</string>
+
+    <string name="about_privacy_title">Nepenîtî</string>
+    <string name="about_privacy">Sepan naçe înternetê; nivîs, belge û dengê ku tu çêdikî ji cîhazê dernakeve. Ne reklam, ne şopandin, ne hesab heye. Destûrên tenê: agahdarî (kontrola xwendinê) û li Android 9 û berê, nivîsandina MP3 li Downloads.</string>
+
+    <string name="about_engine_title">Pêkhateyên bikaranîn</string>
+    <string name="about_engine">Motora deng: sherpa-onnx · ONNX Runtime · espeak-ng\nModelên deng: Piper (VITS)\nMP3: jump3r (LAME)
+OCR: Tesseract\nNivîsa PDF: PDFBox</string>
+
+    <string name="about_license_title">Lîsans û maf</string>
+    <string name="about_license">Xwendevan nermalava azad e; ji ber pêkhateya espeak-ng bi GPL-3.0 an paştir tê belavkirin. Her kes dikare çavkaniyê bistîne, lê binêre û biguherîne.\n\nLîsansên pêkhateyan: sherpa-onnx (Apache-2.0) · ONNX Runtime (MIT) · espeak-ng (GPL-3.0) · Piper (MIT) · PDFBox (Apache-2.0) · Material Components (Apache-2.0) · jump3r/LAME (LGPL-2.1) · Tesseract4Android (Apache-2.0) · Leptonica (BSD-2)\n\nModelên deng:\n• Kurmancî — Berfin &amp; Renas: CC BY-NC 4.0 (rojanu)\n• Tirkî — Murat: daneyên dfki, CC BY-NC-SA 4.0\n• Tirkî — Yelda, Fahrettin: modelên civaka Piper\n\nJi ber mercê NC (ne-bazirganî) ne sepan ne jî dengên ku çêdike nayên firotin; perwerde, gihîştîbûn û bikaranîna kesane serbest e.</string>
+
+    <string name="about_cybergah_title">Cybergah</string>
+    <string name="about_cybergah">Cybergah ji bo ciwanên ku di serdema dîjîtal de riya xwe digerin pusûlek e: ji zîrekiya sûnî heta ewlehiya sîber, ji nermalavê heta pêşxistina lîstikan. Bi kurmancî û tirkî diweşîne û zanînê bi zimanê dayikê gihîştî dike — çimkî ziman nasname ye, zanîn hêz e, teknolojî pêşeroj e. Xwendevan ji bo vê heye: ne tenê ji bo bikaranîna teknolojiyê, ji bo hilberandina wê.</string>
+    <string name="cybergah_slogan">Di tevliheviya dîjîtal de qereqola azadiya we</string>
+    <string name="cybergah_note">Xwendevan xebateke vekirî ya civaka Cybergah e.</string>
+    <string name="cybergah_url">https://cybergah.com/ku/</string>
+    <string name="cybergah_url_label">cybergah.com/ku</string>
+</resources>

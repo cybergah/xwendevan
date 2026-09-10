@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:logo="@drawable/ic_library"
+            app:title="@string/app_name"
+            app:titleTextAppearance="@style/TextAppearance.Material3.TitleLarge" />
+
+        <TextView
+            android:id="@+id/voiceLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="20dp"
+            android:paddingBottom="8dp"
+            android:textAppearance="@style/TextAppearance.Material3.LabelMedium"
+            android:textColor="?attr/colorPrimary" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <androidx.core.widget.NestedScrollView
+                android:id="@+id/scroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                android:paddingBottom="96dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!-- Devam edenler -->
+                    <LinearLayout
+                        android:id="@+id/shelfContinue"
+                        style="@style/Shelf">
+
+                        <TextView
+                            style="@style/ShelfTitle"
+                            android:text="@string/section_continue" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/listContinue"
+                            style="@style/ShelfList" />
+                    </LinearLayout>
+
+                    <!-- Favoriler -->
+                    <LinearLayout
+                        android:id="@+id/shelfFavorites"
+                        style="@style/Shelf">
+
+                        <TextView
+                            style="@style/ShelfTitle"
+                            android:text="@string/section_favorites" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/listFavorites"
+                            style="@style/ShelfList" />
+                    </LinearLayout>
+
+                    <!-- En çok okunanlar -->
+                    <LinearLayout
+                        android:id="@+id/shelfMostRead"
+                        style="@style/Shelf">
+
+                        <TextView
+                            style="@style/ShelfTitle"
+                            android:text="@string/section_most_read" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:id="@+id/listMostRead"
+                            style="@style/ShelfList" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/allTitle"
+                        style="@style/ShelfTitle"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/section_all" />
+
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/list"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:nestedScrollingEnabled="false"
+                        android:paddingHorizontal="12dp" />
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+
+            <LinearLayout
+                android:id="@+id/emptyView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="32dp"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="84dp"
+                    android:layout_height="84dp"
+                    android:alpha="0.45"
+                    android:contentDescription="@string/empty_title"
+                    android:src="@drawable/ic_library" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:text="@string/empty_title"
+                    android:textAppearance="@style/TextAppearance.Material3.TitleLarge" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center"
+                    android:text="@string/empty_body"
+                    android:textAppearance="@style/TextAppearance.Material3.BodyMedium" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/emptyAdd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="22dp"
+                    android:text="@string/open_document"
+                    app:icon="@drawable/ic_folder" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_gravity="center_horizontal"
+            android:alpha="0.5"
+            android:contentDescription="@string/about_cybergah_title"
+            android:paddingBottom="4dp"
+            android:src="@drawable/cybergah_logo"
+            app:tint="@color/cybergah_red" />
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="18dp"
+        android:text="@string/add_document"
+        app:icon="@drawable/ic_add" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
