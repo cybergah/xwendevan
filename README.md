@@ -17,6 +17,8 @@ Bir [**Cybergah**](https://cybergah.com/tr/) çalışması
 
 </div>
 
+<p align="center"><a href="README.en.md"><b>🇬🇧 Read in English</b></a></p>
+
 ---
 
 ## Ne yapar
