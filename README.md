@@ -14,6 +14,7 @@ Bir [**Cybergah**](https://cybergah.com/tr/) çalışması
 [![Sürüm](https://img.shields.io/github/v/release/cybergah8-lang/xwendevan?label=s%C3%BCr%C3%BCm)](https://github.com/cybergah8-lang/xwendevan/releases/latest)
 [![Lisans](https://img.shields.io/badge/lisans-GPL--3.0-red)](LICENSE)
 [![Android](https://img.shields.io/badge/Android-7.0%2B-red)](#kurulum)
+[![Build](https://github.com/cybergah/xwendevan/actions/workflows/release.yml/badge.svg)](https://github.com/cybergah/xwendevan/actions/workflows/release.yml)
 
 </div>
 
